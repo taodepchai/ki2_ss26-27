@@ -1,0 +1,51 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+header {
+    background-color: #ddd;
+    padding: 15px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    height: calc(100% - 50px); 
+}
+
+nav {
+    background-color: #ccc;
+    padding: 15px;
+    flex: 1; 
+}
+
+.menu {
+    background-color: #4CAF50; 
+    color: white;
+    padding: 15px;
+    width: 150px;
+}
+
+.content {
+    background-color: #f2f2f2; 
+    padding: 15px;
+    flex: 3; 
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 10px;
+}
+
+.card {
+    background-color: #fff; 
+    padding: 15px;
+    text-align: center;
+}
+
+.article {
+    background-color: #90caf9; 
+    color: white;
+    padding: 15px;
+    width: 200px; 
+}
